@@ -16,7 +16,7 @@ Open **http://127.0.0.1:8001/**. The page shows when the model is ready. The ser
 
 The model is `mflux-community/qwen-image-2512-mflux-q4`. Its approximately 27.6 GB download is cached under `~/.cache/huggingface/hub/`. The existing download is reused. No model weights are stored in this project.
 
-[Example image](./local_image/data/trump.png)
+![Example image](./local_image/data/trump.png)
 
 ## Usage
 
