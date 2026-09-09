@@ -1,0 +1,119 @@
+INFO:     Started server process [44476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Qwen model ready
+INFO:     127.0.0.1:51941 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "POST /jobs HTTP/1.1" 202 Accepted
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.99s/it]100%|██████████| 2/2 [00:02<00:00,  1.01s/it]100%|██████████| 2/2 [00:02<00:00,  1.16s/it]
+INFO:     127.0.0.1:51970 - "GET /jobs/b4c3106a-bbc8-4a2c-b0ab-f1cc8d2e92b8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51971 - "GET /jobs/b4c3106a-bbc8-4a2c-b0ab-f1cc8d2e92b8/image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51990 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "POST /jobs HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+  0%|          | 0/30 [00:00<?, ?it/s]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+  3%|▎         | 1/30 [00:02<01:23,  2.88s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+  7%|▋         | 2/30 [00:05<01:14,  2.66s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 10%|█         | 3/30 [00:07<01:09,  2.59s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 13%|█▎        | 4/30 [00:10<01:07,  2.58s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 17%|█▋        | 5/30 [00:13<01:05,  2.61s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 20%|██        | 6/30 [00:15<01:02,  2.62s/it]INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 23%|██▎       | 7/30 [00:18<01:00,  2.64s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 27%|██▋       | 8/30 [00:21<00:58,  2.66s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 30%|███       | 9/30 [00:23<00:55,  2.67s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+ 33%|███▎      | 10/30 [00:26<00:53,  2.68s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 37%|███▋      | 11/30 [00:29<00:51,  2.70s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 40%|████      | 12/30 [00:32<00:48,  2.72s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 43%|████▎     | 13/30 [00:34<00:46,  2.74s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 47%|████▋     | 14/30 [00:37<00:44,  2.76s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 50%|█████     | 15/30 [00:40<00:41,  2.78s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 53%|█████▎    | 16/30 [00:43<00:39,  2.80s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 57%|█████▋    | 17/30 [00:46<00:36,  2.80s/it]INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 60%|██████    | 18/30 [00:48<00:33,  2.81s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 63%|██████▎   | 19/30 [00:51<00:30,  2.81s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 67%|██████▋   | 20/30 [00:54<00:28,  2.81s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 70%|███████   | 21/30 [00:57<00:25,  2.80s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 73%|███████▎  | 22/30 [01:00<00:22,  2.80s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 77%|███████▋  | 23/30 [01:03<00:20,  2.87s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 80%|████████  | 24/30 [01:06<00:17,  2.90s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 83%|████████▎ | 25/30 [01:09<00:14,  2.93s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 87%|████████▋ | 26/30 [01:12<00:11,  2.95s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 90%|█████████ | 27/30 [01:15<00:08,  2.98s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 93%|█████████▎| 28/30 [01:18<00:05,  2.99s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+ 97%|█████████▋| 29/30 [01:21<00:02,  3.00s/it]INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+100%|██████████| 30/30 [01:24<00:00,  3.00s/it]100%|██████████| 30/30 [01:24<00:00,  2.81s/it]
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /jobs/d8b0b580-7b26-4fe9-850a-0f355c00eba5/image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52018 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52023 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52028 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52030 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52033 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [44476]
+/Users/asa.joshi/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+INFO:     Started server process [46041]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Loading Qwen image model from cache
+INFO:     Qwen model ready
+INFO:     Job 39cdb036-a34f-40a0-bd12-cdeda4097cd9: encoding prompt (1024x1024, 30 steps)
+INFO:     Job 39cdb036-a34f-40a0-bd12-cdeda4097cd9: prompt encoded; starting denoising
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:05<02:46,  5.74s/it]  7%|▋         | 2/30 [00:10<02:32,  5.46s/it] 10%|█         | 3/30 [00:16<02:26,  5.42s/it] 13%|█▎        | 4/30 [00:21<02:22,  5.46s/it] 17%|█▋        | 5/30 [00:27<02:17,  5.49s/it] 20%|██        | 6/30 [00:33<02:12,  5.53s/it] 23%|██▎       | 7/30 [00:38<02:09,  5.64s/it] 27%|██▋       | 8/30 [00:44<02:06,  5.73s/it] 30%|███       | 9/30 [00:50<02:01,  5.77s/it] 33%|███▎      | 10/30 [00:57<01:59,  5.95s/it] 37%|███▋      | 11/30 [01:03<01:56,  6.14s/it] 40%|████      | 12/30 [01:10<01:52,  6.26s/it] 43%|████▎     | 13/30 [01:16<01:47,  6.30s/it] 47%|████▋     | 14/30 [01:22<01:41,  6.35s/it] 50%|█████     | 15/30 [01:29<01:35,  6.37s/it] 53%|█████▎    | 16/30 [01:35<01:29,  6.37s/it] 57%|█████▋    | 17/30 [01:42<01:22,  6.37s/it] 60%|██████    | 18/30 [01:48<01:16,  6.39s/it] 63%|██████▎   | 19/30 [01:54<01:10,  6.37s/it] 67%|██████▋   | 20/30 [02:01<01:03,  6.34s/it] 70%|███████   | 21/30 [02:07<00:56,  6.33s/it] 73%|███████▎  | 22/30 [02:13<00:50,  6.30s/it] 77%|███████▋  | 23/30 [02:19<00:44,  6.29s/it] 80%|████████  | 24/30 [02:26<00:37,  6.30s/it] 83%|████████▎ | 25/30 [02:32<00:31,  6.31s/it] 87%|████████▋ | 26/30 [02:38<00:25,  6.31s/it] 90%|█████████ | 27/30 [02:45<00:18,  6.31s/it] 93%|█████████▎| 28/30 [02:51<00:12,  6.33s/it] 97%|█████████▋| 29/30 [02:58<00:06,  6.35s/it]100%|██████████| 30/30 [03:04<00:00,  6.39s/it]100%|██████████| 30/30 [03:04<00:00,  6.15s/it]
+INFO:     Job 39cdb036-a34f-40a0-bd12-cdeda4097cd9: denoising complete; decoding image
+INFO:     Job 39cdb036-a34f-40a0-bd12-cdeda4097cd9: completed in 187.84s; peak MLX 35.48 GB
+INFO:     Job d18b3b95-31f1-4c09-a91f-0d4f0a9bfce6: encoding prompt (768x768, 30 steps)
+INFO:     Job d18b3b95-31f1-4c09-a91f-0d4f0a9bfce6: prompt encoded; starting denoising
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:03<01:29,  3.10s/it]  7%|▋         | 2/30 [00:05<01:17,  2.77s/it] 10%|█         | 3/30 [00:08<01:11,  2.66s/it] 13%|█▎        | 4/30 [00:10<01:08,  2.65s/it] 17%|█▋        | 5/30 [00:13<01:06,  2.66s/it] 20%|██        | 6/30 [00:16<01:03,  2.66s/it] 23%|██▎       | 7/30 [00:18<01:01,  2.67s/it] 27%|██▋       | 8/30 [00:21<00:59,  2.69s/it] 30%|███       | 9/30 [00:24<00:56,  2.70s/it] 33%|███▎      | 10/30 [00:27<00:54,  2.73s/it] 37%|███▋      | 11/30 [00:29<00:52,  2.75s/it] 40%|████      | 12/30 [00:32<00:49,  2.75s/it] 43%|████▎     | 13/30 [00:35<00:46,  2.75s/it] 47%|████▋     | 14/30 [00:38<00:44,  2.78s/it] 50%|█████     | 15/30 [00:40<00:41,  2.78s/it] 53%|█████▎    | 16/30 [00:43<00:39,  2.79s/it] 57%|█████▋    | 17/30 [00:46<00:36,  2.80s/it] 60%|██████    | 18/30 [00:49<00:33,  2.80s/it] 63%|██████▎   | 19/30 [00:52<00:31,  2.82s/it] 67%|██████▋   | 20/30 [00:55<00:28,  2.88s/it] 70%|███████   | 21/30 [00:58<00:26,  2.92s/it] 73%|███████▎  | 22/30 [01:01<00:23,  2.95s/it] 77%|███████▋  | 23/30 [01:04<00:20,  2.97s/it] 80%|████████  | 24/30 [01:07<00:17,  2.99s/it] 83%|████████▎ | 25/30 [01:10<00:15,  3.00s/it] 87%|████████▋ | 26/30 [01:13<00:12,  3.01s/it] 90%|█████████ | 27/30 [01:16<00:09,  3.01s/it] 93%|█████████▎| 28/30 [01:19<00:06,  3.01s/it] 97%|█████████▋| 29/30 [01:22<00:03,  3.01s/it]100%|██████████| 30/30 [01:25<00:00,  3.00s/it]100%|██████████| 30/30 [01:25<00:00,  2.85s/it]
+INFO:     Job d18b3b95-31f1-4c09-a91f-0d4f0a9bfce6: denoising complete; decoding image
+INFO:     Job d18b3b95-31f1-4c09-a91f-0d4f0a9bfce6: completed in 87.16s; peak MLX 35.48 GB
+INFO:     Job f9bdb33b-331a-401e-b84a-8e83c5838550: encoding prompt (768x768, 30 steps)
+INFO:     Job f9bdb33b-331a-401e-b84a-8e83c5838550: prompt encoded; starting denoising
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:02<01:25,  2.96s/it]  7%|▋         | 2/30 [00:05<01:15,  2.69s/it] 10%|█         | 3/30 [00:07<01:10,  2.61s/it] 13%|█▎        | 4/30 [00:10<01:08,  2.62s/it] 17%|█▋        | 5/30 [00:13<01:05,  2.63s/it] 20%|██        | 6/30 [00:15<01:03,  2.65s/it] 23%|██▎       | 7/30 [00:18<01:00,  2.65s/it] 27%|██▋       | 8/30 [00:21<00:58,  2.66s/it] 30%|███       | 9/30 [00:23<00:56,  2.67s/it] 33%|███▎      | 10/30 [00:26<00:53,  2.69s/it] 37%|███▋      | 11/30 [00:29<00:51,  2.71s/it] 40%|████      | 12/30 [00:32<00:49,  2.74s/it] 43%|████▎     | 13/30 [00:35<00:47,  2.77s/it] 47%|████▋     | 14/30 [00:37<00:44,  2.80s/it] 50%|█████     | 15/30 [00:40<00:42,  2.82s/it] 53%|█████▎    | 16/30 [00:43<00:39,  2.84s/it] 57%|█████▋    | 17/30 [00:46<00:36,  2.84s/it] 60%|██████    | 18/30 [00:49<00:34,  2.84s/it] 63%|██████▎   | 19/30 [00:52<00:31,  2.84s/it] 67%|██████▋   | 20/30 [00:55<00:28,  2.84s/it] 70%|███████   | 21/30 [00:57<00:25,  2.84s/it] 73%|███████▎  | 22/30 [01:00<00:22,  2.87s/it] 77%|███████▋  | 23/30 [01:03<00:20,  2.94s/it] 80%|████████  | 24/30 [01:07<00:17,  2.98s/it] 83%|████████▎ | 25/30 [01:10<00:14,  2.99s/it] 87%|████████▋ | 26/30 [01:13<00:12,  3.01s/it] 90%|█████████ | 27/30 [01:16<00:09,  3.00s/it] 93%|█████████▎| 28/30 [01:19<00:06,  3.00s/it] 97%|█████████▋| 29/30 [01:22<00:02,  3.00s/it]100%|██████████| 30/30 [01:25<00:00,  3.00s/it]100%|██████████| 30/30 [01:25<00:00,  2.84s/it]
+INFO:     Job f9bdb33b-331a-401e-b84a-8e83c5838550: denoising complete; decoding image
+INFO:     Job f9bdb33b-331a-401e-b84a-8e83c5838550: completed in 86.76s; peak MLX 35.48 GB
