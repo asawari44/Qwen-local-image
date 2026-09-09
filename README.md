@@ -16,6 +16,8 @@ Open **http://127.0.0.1:8001/**. The page shows when the model is ready. The ser
 
 The model is `mflux-community/qwen-image-2512-mflux-q4`. Its approximately 27.6 GB download is cached under `~/.cache/huggingface/hub/`. The existing download is reused. No model weights are stored in this project.
 
+[Example image](./local_image/data/trump.png)
+
 ## Usage
 
 Enter a prompt, choose a square image size, steps, and seed, then click **Generate image**. The default is 768×768 at 30 steps. The UI displays the result and provides a PNG download. Requests run one at a time; up to eight requests may wait in the server queue. Reloading the page in the same tab resumes tracking the last job while the server remains running.
